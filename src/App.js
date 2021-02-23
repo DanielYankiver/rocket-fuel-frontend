@@ -22,6 +22,4 @@ function App() {
   );
 }
 
-// Initial Commit Test 
-
 export default App;
