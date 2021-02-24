@@ -1,4 +1,41 @@
-.App {
+nav a.active {
+  background-color: lightblue;
+  color: white;
+}
+
+nav a{
+  color: green;
+  text-decoration: none; /* underline */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CAME WITH REACT:  */
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +72,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

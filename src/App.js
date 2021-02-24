@@ -1,9 +1,22 @@
-import logo from './logo.svg';
-import { useState , useEffect} from 'react';
+// import logo from './logo.svg';
+import React from "react";
+import { useState, useEffect } from 'react';
+import { Switch, Route } from "react-router-dom";
 import './App.css';
+import NavControls from "./NavControls";
+import Landing from "./Landing";
+import Profile from "./Profile";
+import Earth from "./Earth";
+import Moon from "./Moon";
+import Mars from "./Mars";
+import NASAtv from "./NASAtv";
+import GoToSpace from "./GoToSpace";
+import Launches from "./Launches";
+import Games from "./Games";
 
 function App() {
-  const [currentUser, setCurrentUser] = useState(null);
+  const [currentUser, setCurrentUser] = useState("/");
+  const [page, setPage] = useState("/")
 
   // auto-login
   useEffect(() => {
@@ -24,12 +37,51 @@ function App() {
     setCurrentUser(null);
   }
 
+
   return (
     <div>
-      <button onClick={handleLogout}>Log out</button>
-      <button onClick={handleLogin}>Log in</button>
-      {currentUser ? <h1>Welcome, {currentUser.name}</h1> : null}
+      <div>
+        <button onClick={handleLogout}>Log out</button>
+        <button onClick={handleLogin}>Log in</button>
+        {currentUser ? <h1>Welcome, {currentUser.username}</h1> : null}
+      </div>
+      <div>
+        <NavControls onChangePage={setPage} />
+        <Switch>
+          <Route exact path="/">
+            <Landing />
+          </Route>
+          <Route exact path="/profile">
+            <Profile currentUser={currentUser}/>
+          </Route>
+          <Route exact path="/earth">
+            <Earth />
+          </Route>
+          <Route exact path="/moon">
+            <Moon />
+          </Route>
+          <Route exact path="/mars">
+            <Mars />
+          </Route>
+          <Route exact path="/NASAtv">
+            <NASAtv />
+          </Route>
+          <Route exact path="/gotospace">
+            <GoToSpace />
+          </Route>
+          <Route exact path="/launches">
+            <Launches />
+          </Route>
+          <Route exact path="/games">
+            <Games />
+          </Route>
+          <Route path="*">
+            <h1>404 not found</h1>
+          </Route>
+        </Switch>
+      </div>
     </div>
+    
   );
 
 }
