@@ -5,7 +5,11 @@ function NavControls() {
     
     return (
         <nav>
-            <NavLink exact to="/">Landing</NavLink>
+            <NavLink exact to="/">Launch</NavLink>
+            <br></br>
+            <NavLink exact to="/abort">Abort</NavLink>
+            <br></br>
+            <NavLink exact to="/cruise">Landing</NavLink>
             <br></br>
             <NavLink to="/profile">Profile</NavLink>
             <br></br>

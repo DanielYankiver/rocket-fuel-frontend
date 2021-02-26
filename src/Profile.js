@@ -2,6 +2,9 @@ import React from "react";
 
 function Profile({ currentUser }) {
 
+    // Patch Edit User Form 
+    // Delete Request 
+
     return (
         <div id="profile">
             {currentUser ? 

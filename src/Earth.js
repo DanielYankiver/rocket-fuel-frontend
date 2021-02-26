@@ -7,7 +7,7 @@ function Earth() {
         <div id="earth">
             <h1>Earth Page</h1>
             <br></br>
-            <ReactPlayer volume="0" playing="true" controls="1" modestbranding="1" url='https://www.youtube.com/watch?v=EEIk7gwjgIM' />
+            <ReactPlayer className="earth-player" volume="0" playing="true" controls="1" modestbranding="1" url='https://www.youtube.com/watch?v=EEIk7gwjgIM' />
         </div>
 
     )
