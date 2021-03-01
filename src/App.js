@@ -42,55 +42,58 @@ function App() {
 
 
   return (
-    <Skin />
-    //   <div>
-    //   <div>
-    //     <button onClick={handleLogout}>Log out</button>
-    //     <button onClick={handleLogin}>Log in</button>
-    //     {currentUser ? <h1>Welcome, {currentUser.username}</h1> : null}
-    //   </div>
-    //   <div>
-    //     <NavControls onChangePage={setPage} />
-    //     <Switch>
-    //       <Route exact path="/">
-    //         <Login />
-    //       </Route>
-    //       <Route exact path="/abort">
-    //         <Logout />
-    //       </Route>
-    //       <Route exact path="/cruise">
-    //         <Landing />
-    //       </Route>
-    //       <Route exact path="/profile">
-    //         <Profile currentUser={currentUser}/>
-    //       </Route>
-    //       <Route exact path="/earth">
-    //         <Earth />
-    //       </Route>
-    //       <Route exact path="/moon">
-    //         <Moon />
-    //       </Route>
-    //       <Route exact path="/mars">
-    //         <Mars />
-    //       </Route>
-    //       <Route exact path="/NASAtv">
-    //         <NASAtv />
-    //       </Route>
-    //       <Route exact path="/gotospace">
-    //         <GoToSpace />
-    //       </Route>
-    //       <Route exact path="/launches">
-    //         <Launches />
-    //       </Route>
-    //       <Route exact path="/games">
-    //         <Games />
-    //       </Route>
-    //       <Route path="*">
-    //         <h1>404 not found</h1>
-    //       </Route>
-    //     </Switch>
-    //   </div>
-    // </div>
+    <div>
+        <Skin />
+      <div>
+        <button onClick={handleLogout}>Log out</button>
+        <button onClick={handleLogin}>Log in</button>
+        {currentUser ? <h1>Welcome, {currentUser.username}</h1> : null}
+      </div>
+      <div>
+        <NavControls onChangePage={setPage} />
+        <Switch>
+          <Route exact path="/">
+            <Login />
+          </Route>
+          <Route exact path="/abort">
+            <Logout />
+          </Route>
+          <Route exact path="/profile">
+            <Profile />
+          </Route>
+          <Route exact path="/cruise">
+            <Landing />
+          </Route>
+          <Route exact path="/profile">
+            <Profile currentUser={currentUser}/>
+          </Route>
+          <Route exact path="/earth">
+            <Earth />
+          </Route>
+          <Route exact path="/moon">
+            <Moon />
+          </Route>
+          <Route exact path="/mars">
+            <Mars />
+          </Route>
+          <Route exact path="/NASAtv">
+            <NASAtv />
+          </Route>
+          <Route exact path="/gotospace">
+            <GoToSpace />
+          </Route>
+          <Route exact path="/launches">
+            <Launches />
+          </Route>
+          <Route exact path="/games">
+            <Games />
+          </Route>
+          <Route path="*">
+            <h1>404 not found</h1>
+          </Route>
+        </Switch>
+      </div>
+    </div>
   );
  
 }
