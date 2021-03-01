@@ -49,7 +49,7 @@ function App() {
         <button onClick={handleLogin}>Log in</button>
         {currentUser ? <h1>Welcome, {currentUser.username}</h1> : null}
       </div>
-      <div>
+      {/* <div>
         <NavControls onChangePage={setPage} />
         <Switch>
           <Route exact path="/">
@@ -92,7 +92,7 @@ function App() {
             <h1>404 not found</h1>
           </Route>
         </Switch>
-      </div>
+      </div> */}
     </div>
   );
  
