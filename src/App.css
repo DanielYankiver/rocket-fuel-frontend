@@ -18,7 +18,10 @@ body {
 } 
 
 
-
+.profile-button {
+  z-index: -1 !important;
+  position: relative;
+}
 
 
 
