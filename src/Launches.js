@@ -4,7 +4,7 @@ function Launches() {
 
     return (
         <div id="launches">
-            <h1>Upcoming Launches Page</h1>
+            {/* <h1>Upcoming Launches Page</h1> */}
             {/* <div>
                 <a href="https://spaceflightnow.com/launch-schedule/" target="_blank">
                     <h3>Space Flight Now</h3>

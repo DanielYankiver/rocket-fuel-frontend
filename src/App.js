@@ -44,11 +44,11 @@ function App() {
   return (
     <div>
         <Skin />
-      <div>
+      {/* <div>
         <button onClick={handleLogout}>Log out</button>
         <button onClick={handleLogin}>Log in</button>
         {currentUser ? <h1>Welcome, {currentUser.username}</h1> : null}
-      </div>
+      </div> */}
       {/* <div>
         <NavControls onChangePage={setPage} />
         <Switch>

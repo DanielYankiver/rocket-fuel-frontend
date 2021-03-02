@@ -25,7 +25,7 @@ export default class Routes extends Component {
                     <Route exact path="/abort">
                         <Logout />
                     </Route>
-                    <Route exact path="/profile">
+                    <Route exact path="/me">
                         <Profile />
                     </Route>
                     <Route exact path="/cruise">

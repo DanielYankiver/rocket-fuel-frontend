@@ -17,11 +17,16 @@ body {
     background-size: contain; */
 } 
 
-
-.profile-button {
-  z-index: -1 !important;
-  position: relative;
+/* .grid-container {
+  display: grid;
+  grid-template-columns: 4.25fr 11.5fr 4.25fr;
+  grid-template-rows: 2fr 6.5fr 5fr;
+  gap: 0px 0px;
 }
+.skin { grid-area: 1 / 1 / 4 / 4; }
+.video-player { grid-area: 2 / 2 / 3 / 3; } */
+
+
 
 
 
