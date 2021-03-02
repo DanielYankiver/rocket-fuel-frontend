@@ -5,12 +5,12 @@ function Launches() {
     return (
         <div id="launches">
             <h1>Upcoming Launches Page</h1>
-            <div>
+            {/* <div>
                 <a href="https://spaceflightnow.com/launch-schedule/" target="_blank">
                     <h3>Space Flight Now</h3>
                 </a>
-                <embed src="https://spaceflightnow.com/launch-schedule/" width="500px" height="300px"></embed>
-            </div>
+                <embed src="https://spaceflightnow.com/launch-schedule/" width="500px" height="300px"></embed> */}
+            {/* </div> */}
             {/* <div>
                 <a href="https://www.spacex.com/launches/" target="_blank">
                     <h3>Space X</h3>
