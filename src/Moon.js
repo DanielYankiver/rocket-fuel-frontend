@@ -14,6 +14,7 @@ function Moon() {
             className="moon-player"
             volume="0" 
             playing="true" 
+            loop="true" 
             controls="1" 
             modestbranding="1" 
             url="https://www.youtube.com/watch?v=IfrQ5dczECY&feature=emb_logo"

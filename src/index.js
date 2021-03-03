@@ -5,14 +5,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import Routes from './Routes';
+// import Routes from './Routes';
 
 ReactDOM.render(
   <React.StrictMode>
     <Router>
       <div>
         <App className="app" />
-        <Routes />
+        {/* <Routes /> */}
       </div>
     </Router>
   </React.StrictMode>,

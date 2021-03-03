@@ -1,21 +1,21 @@
 // import logo from './logo.svg';
 import React from "react";
 import { useState, useEffect } from 'react';
-import { Switch, Route } from "react-router-dom";
+// import { Switch, Route } from "react-router-dom";
 import './App.css';
-import NavControls from "./NavControls";
+// import NavControls from "./NavControls";
 import Skin from "./Skin";
-import Login from "./Login";
-import Logout from "./Logout";
-import Landing from "./Cruise";
-import Profile from "./Profile";
-import Earth from "./Earth";
-import Moon from "./Moon";
-import Mars from "./Mars";
-import NASAtv from "./NASAtv";
-import GoToSpace from "./GoToSpace";
-import Launches from "./Launches";
-import Games from "./Games";
+// import Login from "./Login";
+// import Logout from "./Logout";
+// import Landing from "./Cruise";
+// import Profile from "./Profile";
+// import Earth from "./Earth";
+// import Moon from "./Moon";
+// import Mars from "./Mars";
+// import NASAtv from "./NASAtv";
+// import GoToSpace from "./GoToSpace";
+// import Launches from "./Launches";
+// import Games from "./Games";
 
 function App() {
   const [currentUser, setCurrentUser] = useState("/");

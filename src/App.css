@@ -1,35 +1,19 @@
-nav a.active {
-  background-color: lightblue;
-  color: white;
-}
-
-nav a{
-  color: green;
-  text-decoration: none; /* underline */
-}
-
-
 body {
-    /* background: url("./SpaceshipSkin.svg") no-repeat center center fixed;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain; */
+    background-color: #7c7c7c;
 } 
 
-/* .grid-container {
-  display: grid;
-  grid-template-columns: 4.25fr 11.5fr 4.25fr;
-  grid-template-rows: 2fr 6.5fr 5fr;
-  gap: 0px 0px;
+.game {
+  padding-left: 10%;
+
 }
-.skin { grid-area: 1 / 1 / 4 / 4; }
-.video-player { grid-area: 2 / 2 / 3 / 3; } */
 
-
-
-
-
+/* svg { top:0; bottom: 0; left:0; height:100%; width:100% } */
+svg {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+ 
 
 
 

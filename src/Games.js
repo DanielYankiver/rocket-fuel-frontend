@@ -3,9 +3,17 @@ import React from "react";
 function Games() {
 
     return (
-        <div id="games">
-            {/* <h1>Games Page</h1> */}
-        </div>
+    
+        <g className="game">
+            <iframe 
+                src="https://funhtml5games.com?embed=spaceinvaders" 
+                width={843}
+                height={474}
+                frameborder="0" 
+                scrolling="no"
+            >
+            </iframe>
+        </g>
 
     )
 

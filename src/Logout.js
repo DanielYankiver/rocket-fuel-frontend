@@ -1,9 +1,21 @@
 import React from "react";
+import ReactPlayer from 'react-player';
 
 function Logout() {
 
     return(
-        <h1>Logout Page</h1>
+        <ReactPlayer 
+        className="abort-player"
+        volume="0" 
+        playing="true" 
+        loop="true" 
+        controls="1" 
+        modestbranding="1" 
+        url="https://www.youtube.com/watch?v=PUX5FzpBbcQ"
+        width={843}
+        height={474}
+    />
+
     )
 
 }

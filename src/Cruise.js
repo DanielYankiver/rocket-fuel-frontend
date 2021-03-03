@@ -13,7 +13,8 @@ function Cruise() {
             <ReactPlayer 
               className="cruise-player"
               volume="0" 
-              playing="true" 
+              playing="true"
+              loop="true" 
               controls="1" 
               modestbranding="1" 
               url="https://www.youtube.com/watch?v=fTySVh_47Ak"
