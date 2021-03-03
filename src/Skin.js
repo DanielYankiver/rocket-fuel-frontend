@@ -1,5 +1,6 @@
 import * as React from "react"
 import history from './history';
+import Cutout from './Cutout';
 import ReactPlayer from 'react-player';
 import { useState } from 'react';
 
@@ -22,22 +23,22 @@ const links = {
 
 
 function Skin(props) {
-  const [theClassName, setTheClassName] = useState("cruise-button")
-  const [theUrl, setTheUrl] = useState("https://www.youtube.com/watch?v=fTySVh_47Ak")
-  const [theSrc, setTheSrc] = useState("")
-  const [display, setDisplay] = useState(true)
+  // const [theClassName, setTheClassName] = useState("cruise-button")
+  // const [theUrl, setTheUrl] = useState("https://www.youtube.com/watch?v=fTySVh_47Ak")
+  // const [theSrc, setTheSrc] = useState("")
+  // const [display, setDisplay] = useState(true)
 
-  function handleButtonClick(e) {
-    setTheClassName(e.target.className.baseVal)
-    setTheUrl(links[e.target.className.baseVal])
-    setDisplay(true)
-  }
+  // function handleButtonClick(e) {
+  //   setTheClassName(e.target.className.baseVal)
+  //   setTheUrl(links[e.target.className.baseVal])
+  //   setDisplay(true)
+  // }
 
-  function handleEmbedButtonClick(e) {
-    setTheClassName(e.target.className.baseVal)
-    setTheSrc(links[e.target.className.baseVal])
-    setDisplay(false)
-  }
+  // function handleEmbedButtonClick(e) {
+  //   setTheClassName(e.target.className.baseVal)
+  //   setTheSrc(links[e.target.className.baseVal])
+  //   setDisplay(false)
+  // }
 
 
   return (
@@ -51,42 +52,15 @@ function Skin(props) {
       style={{zIndex:"1"}}
       {...props}
     > 
-     { display 
-     ?
-      <foreignObject 
-        className="video-player" 
-        width="847.5" 
-        height="490"
-        x="327.4" 
-        y="153"
-      >
-        <ReactPlayer 
-          className={theClassName} 
-          volume="0" 
-          playing="true" 
-          controls="1" 
-          modestbranding="1" 
-          url={theUrl} 
-          width={847.5}
-          height={490}
-        />
-      </foreignObject>
-      :
-      <foreignObject 
-        className="page-embed" 
-        width="847.5" 
-        height="490"
-        x="327.4" 
-        y="153"
-      >
-        <div>
-          <embed
-            src={theSrc}
-            width={847.5}
-            height={490}
-          />
-         </div>
-      </foreignObject> }
+       <foreignObject 
+            className="video-player" 
+            width="843" 
+            height="474"
+            x="327" 
+            y="153"
+          >
+          <Cutout />
+        </foreignObject>
       <image
         className="background"
         x={-110}
@@ -97,10 +71,10 @@ function Skin(props) {
       />
       <path
         data-name="Player Screen"
-        d="M324 150h853v495.045H324V150z"
+        d="M324 150h849v479H324V150z"
         fill="#3c3c3c"
         stroke="#a8a8a8"
-        strokeWidth={5}
+        strokeWidth={5.5}
         fillRule="evenodd"
       />
       <image
@@ -141,7 +115,7 @@ function Skin(props) {
       />
       <image
         className="cruise-button"
-        onClick={(e) => {history.push('/cruise');handleButtonClick(e)}}
+        onClick={() => history.push('/cruise')}
         data-name="CRUISE BUTTON"
         x={40}
         y={789}
@@ -151,7 +125,7 @@ function Skin(props) {
       />
       <image
         className="earth-button"
-        onClick={(e) => {history.push('/earth');handleButtonClick(e)}}
+        onClick={() => history.push('/earth')}
         data-name="EARTH BUTTON"
         x={80}
         y={861}
@@ -161,7 +135,7 @@ function Skin(props) {
       />
       <image
         className="moon-button"
-        onClick={(e) => {history.push('/moon');handleButtonClick(e)}}
+        onClick={() => history.push('/moon')}
         data-name="MOON BUTTON"
         x={193}
         y={713}
@@ -171,7 +145,7 @@ function Skin(props) {
       />
       <image
         className="mars-button"
-        onClick={(e) => {history.push('/mars');handleButtonClick(e)}}
+        onClick={() => history.push('/mars')}
         data-name="MARS BUTTON"
         x={230}
         y={784}
@@ -192,7 +166,7 @@ function Skin(props) {
       />
       <image
         className="nasa-button"
-        onClick={(e) => {history.push('/NASAtv');handleButtonClick(e)}}
+        onClick={() => history.push('/NASAtv')}
         data-name="NASA TV BUTTON"
         x={1169}
         y={739}
@@ -212,7 +186,7 @@ function Skin(props) {
       />
       <image
         className="launches-button"
-        onClick={(e) => {history.push('/launches');handleEmbedButtonClick(e)}}
+        onClick={() => history.push('/launches')}
         data-name="LAUNCHES BUTTON"
         x={1319}
         y={817}
@@ -222,8 +196,7 @@ function Skin(props) {
       />
       <image
         className="gotospace-button"
-        // onClick={() => history.push('/gotospace')}
-        onClick={(e) => {history.push('/gotospace');handleEmbedButtonClick(e)}}
+        onClick={() => history.push('/gotospace')}
         data-name="GO TO SPACE BUTTON"
         x={1282}
         y={890}
@@ -233,7 +206,7 @@ function Skin(props) {
       />
       <image
         className="launch-button"
-        onClick={() => history.push('/')}
+        onClick={() => history.push('/launch')}
         data-name="LAUNCH BUTTON"
         x={421}
         y={697}

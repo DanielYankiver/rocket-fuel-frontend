@@ -3,7 +3,7 @@ import { Router, Switch, Route } from "react-router-dom";
 
 import Login from "./Login";
 import Logout from "./Logout";
-import Landing from "./Landing";
+import Cruise from "./Cruise";
 import Profile from "./Profile";
 import Earth from "./Earth";
 import Moon from "./Moon";
@@ -22,14 +22,17 @@ export default class Routes extends Component {
                     <Route exact path="/">
                         <Login />
                     </Route>
+                    <Route exact path="/launch">
+                        <Logout />
+                    </Route>
                     <Route exact path="/abort">
                         <Logout />
                     </Route>
-                    <Route exact path="/me">
+                    <Route exact path="/profile">
                         <Profile />
                     </Route>
                     <Route exact path="/cruise">
-                        <Landing />
+                        <Cruise />
                     </Route>
                     <Route exact path="/profile">
                         <Profile />
