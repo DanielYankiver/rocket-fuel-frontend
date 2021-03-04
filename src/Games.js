@@ -9,7 +9,7 @@ function Games() {
                 id="space-invaders"
                 src="https://funhtml5games.com?embed=spaceinvaders" 
                 width={843}
-                height={474}
+                height={470}
                 frameborder="0" 
                 scrolling="no"
             >
