@@ -5,6 +5,7 @@ import { useState, useEffect } from 'react';
 import './App.css';
 // import NavControls from "./NavControls";
 import Skin from "./Skin";
+import Radar from "./Radar";
 // import Login from "./Login";
 // import Logout from "./Logout";
 // import Landing from "./Cruise";
