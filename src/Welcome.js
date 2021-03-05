@@ -1,16 +1,17 @@
 import React from "react";
+import ReactPlayer from 'react-player';
 
-function Login() {
+function Welcome() {
 
     // POSt request for create new user
 
     // Build this out as well 
 
     return(
-        <h1>Login Page</h1>
+        <div></div>
     )
 
 }
 
 
-export default Login 
+export default Welcome 
