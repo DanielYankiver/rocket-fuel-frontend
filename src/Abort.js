@@ -1,7 +1,7 @@
 import React from "react";
 import ReactPlayer from 'react-player';
 
-function Logout() {
+function Abort() {
 
     return(
         <ReactPlayer 
@@ -21,4 +21,4 @@ function Logout() {
 }
 
 
-export default Logout 
+export default Abort 

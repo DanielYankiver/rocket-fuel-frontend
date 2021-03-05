@@ -2,7 +2,7 @@ import React from "react";
 import { Switch } from "react-router-dom";
 import { Route } from "react-router-dom";
 import Welcome from "./Welcome";
-import Logout from "./Logout";
+import Abort from "./Abort";
 import Launch from "./Launch";
 import Landing from "./Cruise";
 import Profile from "./Profile";
@@ -26,7 +26,7 @@ function Cutout() {
                 <Launch />
             </Route>
             <Route exact path="/abort">
-                <Logout />
+                <Abort />
             </Route>
             <Route exact path="/profile">
                 <Profile />
