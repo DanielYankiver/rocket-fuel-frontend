@@ -12,7 +12,7 @@ import Mars from "./Mars";
 import NASAtv from "./NASAtv";
 import GoToSpace from "./GoToSpace";
 import Launches from "./Launches";
-import Games from "./Games";
+import SpaceInvaders from "./SpaceInvaders";
 
 
 function Cutout() {
@@ -55,8 +55,8 @@ function Cutout() {
             <Route exact path="/launches">
                 <Launches />
             </Route>
-            <Route exact path="/games">
-                <Games />
+            <Route exact path="/spaceinvaders">
+                <SpaceInvaders />
             </Route>
             <Route path="*">
                 <h1>404 not found</h1>

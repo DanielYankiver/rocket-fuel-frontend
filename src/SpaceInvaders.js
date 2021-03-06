@@ -1,10 +1,10 @@
 import React from "react";
 
-function Games() {
+function SpaceInvaders() {
 
     return (
     
-        <g className="game">
+        <g className="space-invaders">
             <iframe 
                 id="space-invaders"
                 title="spaceInvaders"
@@ -21,4 +21,4 @@ function Games() {
 
 }
 
-export default Games 
+export default SpaceInvaders 
