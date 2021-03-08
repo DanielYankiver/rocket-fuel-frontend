@@ -1,17 +1,17 @@
 import React from "react";
 import ReactPlayer from 'react-player';
 
-function Earth() {
+function Hyperspeed() {
 
     return (
    
             <ReactPlayer 
-              className="earth-player"
+              className="hyperspeed-player"
               volume="0" 
               playing="true" 
               controls="1" 
               modestbranding="1" 
-              url="https://www.youtube.com/watch?v=EEIk7gwjgIM"
+              url="https://www.youtube.com/watch?v=al93dC3vqws"
               width={843}
               height={474}
             />
@@ -20,4 +20,4 @@ function Earth() {
 
 }
 
-export default Earth 
+export default Hyperspeed 

@@ -1,18 +1,18 @@
 import React from "react";
 import ReactPlayer from 'react-player';
 
-function Moon() {
+function Ocean() {
 
     return (
 
         <ReactPlayer 
-            className="moon-player"
+            className="ocean-player"
             volume="0" 
             playing="true" 
             loop="true" 
             controls="1" 
             modestbranding="1" 
-            url="https://www.youtube.com/watch?v=IfrQ5dczECY"
+            url="youtube.com/watch?v=BEaegFLrvqY"
             width={843}
             height={474}
         />
@@ -21,4 +21,4 @@ function Moon() {
 
 }
 
-export default Moon 
+export default Ocean 

@@ -2,12 +2,11 @@ body {
     background-color: #7c7c7c;
 } 
 
-#invaders{
-  /* padding-left: 10%; */
+
+/* #star-trek {
   padding-left: 80px;
   float:left;
-  padding-top: 1px;
-}
+} */
 
 /* svg { top:0; bottom: 0; left:0; height:100%; width:100% } */
 svg {
@@ -27,6 +26,32 @@ svg {
   top: 0;
   left: 0;
 
+}
+
+
+#invaders{
+  /* padding-left: 10%; */
+  padding-left: 80px;
+  float:left;
+  padding-top: 1px;
+}
+
+#shoot {
+  pointer-events: none;
+}
+
+#alien {
+  pointer-events: none;
+}
+
+#do-not-enter {
+  padding-left: 130px;
+  float:left;
+  pointer-events: none;
+}
+
+#rick-and-morty{
+  pointer-events: none;
 }
  
 

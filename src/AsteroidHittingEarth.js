@@ -1,18 +1,18 @@
 import React from "react";
 import ReactPlayer from 'react-player';
 
-function Moon() {
+function AsteroidHittingEarth() {
 
     return (
 
         <ReactPlayer 
-            className="moon-player"
+            className="asteroid-hitting-earth-player"
             volume="0" 
             playing="true" 
             loop="true" 
             controls="1" 
             modestbranding="1" 
-            url="https://www.youtube.com/watch?v=IfrQ5dczECY"
+            url="https://www.youtube.com/watch?v=bU1QPtOZQZU"
             width={843}
             height={474}
         />
@@ -21,4 +21,4 @@ function Moon() {
 
 }
 
-export default Moon 
+export default AsteroidHittingEarth
