@@ -4,9 +4,9 @@ function SpaceInvaders() {
 
     return (
     
-        <g className="space-invaders">
-            <iframe 
-                id="space-invaders"
+        <g id="invaders">
+            <iframe
+                className="space-invaders" 
                 title="spaceInvaders"
                 src="https://funhtml5games.com?embed=spaceinvaders" 
                 width={843}
@@ -22,3 +22,4 @@ function SpaceInvaders() {
 }
 
 export default SpaceInvaders 
+
