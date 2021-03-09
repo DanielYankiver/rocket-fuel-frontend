@@ -54,16 +54,69 @@ svg {
 #rick-and-morty{
   pointer-events: none;
 }
- 
-.welcome{
-  z-index: -1;
-  position:relative;
+
+.Logo {
+  cursor: -webkit-grab; cursor: pointer;
 }
 
+.Logo:hover {
+  opacity: 0.7;
+  filter: alpha(opacity=30);
+}
 
+.earth-button {
+  cursor: -webkit-grab; cursor: pointer;
+}
 
+.earth-button:hover {
+  opacity: 0.8;
+  filter: alpha(opacity=30);
+}
 
+.cruise-button {
+  cursor: -webkit-grab; cursor: pointer;
+}
 
+.cruise-button:hover {
+  opacity: 0.8;
+  filter: alpha(opacity=30);
+}
+
+.moon-button {
+  cursor: -webkit-grab; cursor: pointer;
+}
+
+.moon-button:hover {
+  opacity: 0.8;
+  filter: alpha(opacity=30);
+}
+
+.mars-button {
+  cursor: -webkit-grab; cursor: pointer;
+}
+
+.mars-button:hover {
+  opacity: 0.8;
+  filter: alpha(opacity=30);
+}
+
+.nasa-tv-button {
+  cursor: -webkit-grab; cursor: pointer;
+}
+
+.nasa-tv-button:hover {
+  opacity: 0.8;
+  filter: alpha(opacity=30);
+}
+
+.launches-button {
+  cursor: -webkit-grab; cursor: pointer;
+}
+
+.launches-button:hover {
+  opacity: 0.8;
+  filter: alpha(opacity=30);
+}
 
 
 
