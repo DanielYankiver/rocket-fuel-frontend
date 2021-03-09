@@ -6,7 +6,7 @@ function Launch() {
 
     return (
     
-        <ReactPlayer 
+      <ReactPlayer 
         className="launch-player"
         volume="0" 
         playing="true" 

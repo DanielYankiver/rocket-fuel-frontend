@@ -6,12 +6,6 @@ import Cutout from './Cutout'
 function Skin(props) {
   const history = useHistory()
 
-
-        // className="launch-button-power-symbol"
-        
-        // className="abort-button-power-symbol"
-        // onClick={() => history.push('/abort')}
-
   return (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -370,38 +364,3 @@ function Skin(props) {
 
 export default Skin
 
-// import { useState } from 'react';
-
-  // const [theClassName, setTheClassName] = useState("cruise-button")
-  // const [theUrl, setTheUrl] = useState("https://www.youtube.com/watch?v=fTySVh_47Ak")
-  // const [theSrc, setTheSrc] = useState("")
-  // const [display, setDisplay] = useState(true)
-
-  // function handleButtonClick(e) {
-  //   setTheClassName(e.target.className.baseVal)
-  //   setTheUrl(links[e.target.className.baseVal])
-  //   setDisplay(true)
-  // }
-
-  // function handleEmbedButtonClick(e) {
-  //   setTheClassName(e.target.className.baseVal)
-  //   setTheSrc(links[e.target.className.baseVal])
-  //   setDisplay(false)
-  // }
-
-
-  // const links = {
-//   "cruise-button": "https://www.youtube.com/watch?v=fTySVh_47Ak",
-//   "earth-button": 'https://www.youtube.com/watch?v=EEIk7gwjgIM',
-//   "moon-button": 'https://www.youtube.com/watch?v=IfrQ5dczECY&feature=emb_logo',
-//   "mars-button": 'https://www.youtube.com/watch?v=6B_6K-splRU',
-//   "nasa-button": 'https://www.youtube.com/watch?v=21X5lGlDOfg',
-//   "launches-button": "https://spaceflightnow.com/launch-schedule/",
-//   "gotospace-button": "https://www.virgingalactic.com/visit-the-international-space-station/",
-  
-//   // "profile-button": 
-//   // "games-button":
-
-//   // "launch-button":
-//   // "abort-button":
-// }

@@ -13,7 +13,6 @@ function Shoot() {
                 frameBorder="0" 
                 loop="0"
                 autoplay="0"
-                // allowFullScreen
             >
             </iframe>
         </g>

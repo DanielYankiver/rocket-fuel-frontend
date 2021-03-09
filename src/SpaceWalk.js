@@ -1,24 +1,24 @@
 import React from "react";
 import ReactPlayer from 'react-player';
 
-function SpaceWalk() {
+function Welcome() {
 
-    return (
 
+    return(
         <ReactPlayer 
-            className="space-walk"
+            className="earth-player"
             volume="0" 
             playing="true" 
-            loop="true" 
             controls="1" 
-            modestbranding="1" 
-            url="https://www.youtube.com/watch?v=Wfoy_OvNDvw"
+            modestbranding="1"
+            loop="true" 
+            url="https://www.youtube.com/watch?v=CG4hxngTPbY"
             width={843}
             height={474}
-        />
-
+      />
     )
 
 }
 
-export default SpaceWalk
+
+export default Welcome

@@ -26,7 +26,6 @@ function NavControls() {
             <NavLink to="/launches">Launches</NavLink>
             <br></br>
             <NavLink to="/games">Games</NavLink>
-            {/* <NavLink to="/rankup">Rank Up</NavLink> */}
         </nav>
     );
 }

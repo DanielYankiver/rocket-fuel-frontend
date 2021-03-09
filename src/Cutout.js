@@ -136,49 +136,6 @@ function Cutout() {
         </Switch>
     )
 
-    // return (
-    //     <>
-    //         { display 
-    //          ?
-    //   <foreignObject 
-    //     className="video-player" 
-    //     width="847.5" 
-    //     height="490"
-    //     x="327.4" 
-    //     y="153"
-    //   >
-    //     <ReactPlayer 
-    //       className={theClassName} 
-    //       volume="0" 
-    //       playing="true" 
-    //       controls="1" 
-    //       modestbranding="1" 
-    //       url={theUrl} 
-    //       width={847.5}
-    //       height={490}
-    //     />
-    //   </foreignObject>
-    //   :
-    //   <foreignObject 
-    //     className="page-embed" 
-    //     width="847.5" 
-    //     height="490"
-    //     x="327.4" 
-    //     y="153"
-    //   >
-    //     <div>
-    //       <embed
-    //         src={theSrc}
-    //         width={847.5}
-    //         height={490}
-    //       />
-    //      </div>
-    //   </foreignObject> }
-            
-    //     </>
-
-    // )
-
 }
 
 export default Cutout 
