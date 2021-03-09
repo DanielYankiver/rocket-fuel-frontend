@@ -17,7 +17,6 @@ function Welcome() {
             height={474}
       />
     )
-
 }
 
 
