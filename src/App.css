@@ -57,10 +57,29 @@ svg {
 
 .Logo {
   cursor: -webkit-grab; cursor: pointer;
+
 }
 
 .Logo:hover {
   opacity: 0.7;
+  filter: alpha(opacity=30);
+}
+
+.hyperspeed-button {
+  cursor: -webkit-grab; cursor: pointer;
+}
+
+.hyperspeed-button:hover{
+  opacity: 0.7;
+  filter: alpha(opacity=30);
+}
+
+.shoot-button {
+  cursor: -webkit-grab; cursor: pointer;
+}
+
+.shoot-button:hover{
+  opacity: 0.8;
   filter: alpha(opacity=30);
 }
 
@@ -118,9 +137,185 @@ svg {
   filter: alpha(opacity=30);
 }
 
+.gotospace-button {
+  cursor: -webkit-grab; cursor: pointer;
+}
 
+.gotospace-button:hover {
+  opacity: 0.8;
+  filter: alpha(opacity=30);
+}
 
+.space-invaders-button {
+  cursor: -webkit-grab; cursor: pointer;
+}
 
+.space-invaders-button:hover {
+  opacity: 0.8;
+  filter: alpha(opacity=30);
+}
+
+.launch-button {
+  cursor: -webkit-grab; cursor: pointer;
+}
+
+.launch-button:hover {
+  opacity: 0.8;
+  filter: alpha(opacity=30);
+}
+
+.abort-button {
+  cursor: -webkit-grab; cursor: pointer;
+}
+
+.abort-button:hover {
+  opacity: 0.7;
+  filter: alpha(opacity=30);
+}
+
+.blackhole-button {
+  cursor: -webkit-grab; cursor: pointer;
+}
+
+.blackhole-button:hover {
+  opacity: 0.7;
+  filter: alpha(opacity=30);
+}
+
+.roadster-button {
+  cursor: -webkit-grab; cursor: pointer;
+}
+
+.roadster-button:hover {
+  opacity: 0.7;
+  filter: alpha(opacity=30);
+}
+
+.asteroid-belt-button {
+  cursor: -webkit-grab; cursor: pointer;
+}
+
+.asteroid-belt-button:hover {
+  opacity: 0.7;
+  filter: alpha(opacity=30);
+}
+
+.flying-saucer-button {
+  cursor: -webkit-grab; cursor: pointer;
+}
+
+.flying-saucer-button:hover {
+  opacity: 0.7;
+  filter: alpha(opacity=30);
+}
+
+.clouds-button {
+  cursor: -webkit-grab; cursor: pointer;
+}
+
+.clouds-button:hover {
+  opacity: 0.7;
+  filter: alpha(opacity=30);
+}
+
+.rick-and-morty-button {
+  cursor: -webkit-grab; cursor: pointer;
+}
+
+.rick-and-morty-button:hover {
+  opacity: 0.7;
+  filter: alpha(opacity=30);
+}
+
+.space-cats-button {
+  cursor: -webkit-grab; cursor: pointer;
+}
+
+.space-cats-button:hover {
+  opacity: 0.7;
+  filter: alpha(opacity=30);
+}
+
+.do-not-enter-button {
+  cursor: -webkit-grab; cursor: pointer;
+}
+
+.do-not-enter-button:hover {
+  opacity: 0.7;
+  filter: alpha(opacity=30);
+}
+
+.space-walk-button {
+  cursor: -webkit-grab; cursor: pointer;
+}
+
+.space-walk-button:hover {
+  opacity: 0.7;
+  filter: alpha(opacity=30);
+}
+
+.astroid-hitting-earth-button {
+  cursor: -webkit-grab; cursor: pointer;
+}
+
+.astroid-hitting-earth-button:hover {
+  opacity: 0.7;
+  filter: alpha(opacity=30);
+}
+
+.neon-tunnel-button {
+  cursor: -webkit-grab; cursor: pointer;
+}
+
+.neon-tunnel-button:hover {
+  opacity: 0.7;
+  filter: alpha(opacity=30);
+}
+
+.retro {
+  cursor: -webkit-grab; cursor: pointer;
+}
+
+.retro:hover {
+  opacity: 0.7;
+  filter: alpha(opacity=30);
+}
+
+.star-trek-button {
+  cursor: -webkit-grab; cursor: pointer;
+}
+
+.star-trek-button:hover {
+  opacity: 0.7;
+  filter: alpha(opacity=30);
+}
+
+.alien-button {
+  cursor: -webkit-grab; cursor: pointer;
+}
+
+.alien-button:hover {
+  opacity: 0.7;
+  filter: alpha(opacity=30);
+}
+
+.ocean-button {
+  cursor: -webkit-grab; cursor: pointer;
+}
+
+.ocean-button:hover {
+  opacity: 0.7;
+  filter: alpha(opacity=30);
+}
+
+.futurama-button {
+  cursor: -webkit-grab; cursor: pointer;
+}
+
+.futurama-button:hover {
+  opacity: 0.7;
+  filter: alpha(opacity=30);
+}
 
 
 
