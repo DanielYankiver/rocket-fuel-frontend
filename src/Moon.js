@@ -12,7 +12,7 @@ function Moon() {
             loop="true" 
             controls="1" 
             modestbranding="1" 
-            url="https://www.youtube.com/watch?v=IfrQ5dczECY"
+            url="https://www.youtube.com/watch?v=IfrQ5dczECY&t=4260s"
             width={843}
             height={474}
         />

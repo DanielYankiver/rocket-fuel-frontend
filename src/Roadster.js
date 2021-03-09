@@ -12,7 +12,7 @@ function Roadster() {
             loop="true" 
             controls="1" 
             modestbranding="1" 
-            url="https://www.youtube.com/watch?v=aBr2kKAHN6M"
+            url="https://www.youtube.com/watch?v=aBr2kKAHN6M&t=33"
             width={843}
             height={474}
         />

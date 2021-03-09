@@ -12,7 +12,7 @@ function Clouds() {
             loop="true" 
             controls="1" 
             modestbranding="1" 
-            url="https://www.youtube.com/watch?v=bog4VzMWP20"
+            url="https://www.youtube.com/watch?v=bog4VzMWP20&t=1"
             width={843}
             height={474}
         />

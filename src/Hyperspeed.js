@@ -11,7 +11,7 @@ function Hyperspeed() {
               playing="true" 
               controls="1" 
               modestbranding="1" 
-              url="https://www.youtube.com/watch?v=al93dC3vqws"
+              url="https://www.youtube.com/watch?v=al93dC3vqws&t=1"
               width={843}
               height={474}
             />
